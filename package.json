@@ -16,6 +16,9 @@
       "optional": true
     }
   },
+  "scripts": {
+    "deploy": "npm version patch && publish --access public"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
