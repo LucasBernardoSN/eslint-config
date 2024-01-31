@@ -33,7 +33,7 @@ module.exports = {
         arrowParens: "always",
         endOfLine: "auto",
         printWidth: 80,
-        semi: false,
+        semi: true,
         singleAttributePerLine: true,
         singleQuote: true,
         tabWidth: 2,
