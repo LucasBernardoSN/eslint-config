@@ -5,7 +5,7 @@ module.exports = {
     jest: true,
   },
   extends: [
-    "airbnb",
+    "standard ",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
   ],
@@ -19,6 +19,8 @@ module.exports = {
   },
   plugins: ["jsx-a11y", "@typescript-eslint"],
   rules: {
+    "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+    "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "no-console": ["warn", { allow: ["error"] }],
     "react/jsx-props-no-spreading": "warn",
     "@typescript-eslint/naming-convention": [

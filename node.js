@@ -4,7 +4,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    "airbnb",
+    "standard ",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
   ],
@@ -15,6 +15,8 @@ module.exports = {
   },
   plugins: ["@typescript-eslint"],
   rules: {
+    "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+    "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "no-console": ["warn", { allow: ["error"] }],
     "@typescript-eslint/naming-convention": [
       "error",
