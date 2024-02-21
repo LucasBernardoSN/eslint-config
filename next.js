@@ -19,6 +19,7 @@ module.exports = {
   },
   plugins: ["jsx-a11y", "@typescript-eslint"],
   rules: {
+    "no-unused-vars": "warn",
     "no-console": ["warn", { allow: ["error"] }],
     "react/jsx-props-no-spreading": "warn",
     "@typescript-eslint/naming-convention": [
