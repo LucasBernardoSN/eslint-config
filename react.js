@@ -7,7 +7,7 @@ module.exports = {
   extends: [
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "standard",
+    "airbnb",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
   ],
@@ -21,7 +21,6 @@ module.exports = {
   },
   plugins: ["react", "jsx-a11y", "@typescript-eslint"],
   rules: {
-    "no-unused-vars": "warn",
     "no-console": ["warn", { allow: ["error"] }],
     "react/jsx-props-no-spreading": "warn",
     "@typescript-eslint/naming-convention": [
