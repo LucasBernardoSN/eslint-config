@@ -7,7 +7,7 @@ module.exports = {
   extends: [
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "standard ",
+    "standard",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
   ],
@@ -24,7 +24,7 @@ module.exports = {
     "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "no-console": ["warn", { allow: ["error"] }],
-    "react/jsx-props-no-spreading": "warn",
+    "react/jsx-props-no-spreading": "off",
     "@typescript-eslint/naming-convention": [
       "error",
       {
