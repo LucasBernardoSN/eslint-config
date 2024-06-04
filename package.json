@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "repository": {
-    "url": "lucasbernardosn/eslint-config"
+    "url": "git+https://github.com/lucasbernardosn/eslint-config.git"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
