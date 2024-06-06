@@ -22,7 +22,7 @@ module.exports = {
     "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "no-console": ["warn", { allow: ["error"] }],
-    "react/jsx-props-no-spreading": "warn",
+    "react/jsx-props-no-spreading": "off",
     "@typescript-eslint/naming-convention": [
       "error",
       {
