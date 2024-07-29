@@ -20,6 +20,7 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react", "jsx-a11y", "@typescript-eslint",'react-refresh'],
+  ignorePatterns: ['dist', '.eslintrc.cjs'],
   rules: {
     'react-refresh/only-export-components': [
       'warn',
