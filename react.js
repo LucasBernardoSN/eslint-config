@@ -19,8 +19,12 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "jsx-a11y", "@typescript-eslint"],
+  plugins: ["react", "jsx-a11y", "@typescript-eslint",'react-refresh'],
   rules: {
+    'react-refresh/only-export-components': [
+      'warn',
+      { allowConstantExport: true },
+    ],
     "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "no-console": ["warn", { allow: ["error"] }],
